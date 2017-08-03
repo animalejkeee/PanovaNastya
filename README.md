@@ -1,2 +1,2 @@
 # PanovaNastya
-this site is about of my lover sister, Panova Nastya
+this site is about of my love sister, Panova Nastya
