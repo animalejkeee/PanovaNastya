@@ -1,0 +1,7 @@
+/* font-family:"BeerMoney"; */
+@font-face{
+	font-family: 'BeerMoney';
+	src: url('../fonts/beermoney.ttf');
+	font-weight: normal;
+	font-style: normal;
+} 

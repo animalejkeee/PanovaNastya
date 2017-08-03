@@ -1,0 +1,30 @@
+//Top Bar
+@media screen and (min-width:100px) and (max-width:320px) { /*Размер экранов от 100px до 320px*/
+	div.container{
+		padding-left: 10px;
+		padding-right: 10px;
+		width:80%;
+	}
+	div.pull-right{
+		float:none;
+		font-size:14px;
+	}
+}
+@media screen and (min-width:100px) and (max-width:480px) { /*Размер экранов от 100px до 480px*/
+	div.pull-right{
+		font-size:16px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1024px) { /*Размер экранов от 768px до 1024px*/
+	div.pull-right{
+		font-size:18px;
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1920px) { /*Размер экранов от 1024px до 1920px*/
+	div.container{
+		width:960px;
+	}
+	div.pull-right{
+		font-size:20px;
+	}
+}

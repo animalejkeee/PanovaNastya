@@ -1,0 +1,71 @@
+// LESS
+ 
+//Цыета фона
+@backgroundColorTopHead:#008000;
+
+//Цвета текста
+@colorTopHead:#fff;
+
+//Размеры шрифта
+@fontSizeBig:20px;
+@fontSizeMiddle:16px;
+@fontSizeLittle:12px;
+
+/*
+//////////////////////////////
+Начало кода для стилей
+///////////////////////////////
+*/
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	font-family: BeerMoney;
+ }
+ header{
+ 	display:block;
+ }
+header#topHead.color{
+	background-color:@backgroundColorTopHead;
+	color:@colorTopHead;
+}
+header#topHead{
+	height:40px;
+	width:100%
+	position:relative;
+}
+div.container{
+	position:relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	height:40px;
+}
+div.pull-right{
+	float:right;
+	line-height: 40px;
+	font-size:@fontSizeBig;
+}
+a.info{
+	text-decoration:none;
+	color:@colorTopHead;
+}
+a.info:hover{
+	text-decoration:underline;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
