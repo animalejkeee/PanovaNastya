@@ -2,9 +2,13 @@
  
 //Цыета фона
 @backgroundColorTopHead:#008000;
+@backgroundColorTopic:#FAEBD7;
 
 //Цвета текста
 @colorTopHead:#fff;
+@colorA:#FF7F50;
+@colorAinfoHover:#FF0000;
+@colorAhover:#FF00FF;
 
 //Размеры шрифта
 @fontSizeBig:20px;
@@ -53,9 +57,12 @@ div.pull-right{
 a.info{
 	text-decoration:none;
 	color:@colorTopHead;
+    transition: .3s linear;
+    font-weight: 600;
 }
 a.info:hover{
 	text-decoration:underline;
+	color:@colorAinfoHover;
 }
 .fa {
     display: inline-block;
@@ -68,4 +75,47 @@ a.info:hover{
 }
 .fa-map-marker:before {
     content: "\f041";
+}
+div.main-menu{
+	position:relative;
+	width:100%;
+	height:100px;
+	background-color: @backgroundColorTopic;
+	display:inline-block;
+}
+div.container2{
+	position:relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	height:100px;
+}
+img#logo{
+	width:100px;
+	height:100px;
+}
+ul.link_1{
+	list-style: none;
+	display:inline-block;
+	float:right;
+	margin:15px auto 15px auto;
+	position:relative;
+	height:70px;
+}
+li.link_2{
+	display:inline-block;
+	margin:20px;
+}
+a.link_3{
+	text-decoration: none;
+	color:@colorA;
+	font-size: @fontSizeBig;
+    transition: .3s linear;
+    font-weight: 600;
+}
+a.link_3:hover{
+	text-decoration: underline;
+	color:@colorAhover;
 }

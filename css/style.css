@@ -39,9 +39,12 @@ div.pull-right {
 a.info {
   text-decoration: none;
   color: #ffffff;
+  transition: .3s linear;
+  font-weight: 600;
 }
 a.info:hover {
   text-decoration: underline;
+  color: #ff0000;
 }
 .fa {
   display: inline-block;
@@ -54,4 +57,47 @@ a.info:hover {
 }
 .fa-map-marker:before {
   content: "\f041";
+}
+div.main-menu {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #faebd7;
+  display: inline-block;
+}
+div.container2 {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 100px;
+}
+img#logo {
+  width: 100px;
+  height: 100px;
+}
+ul.link_1 {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin: 15px auto 15px auto;
+  position: relative;
+  height: 70px;
+}
+li.link_2 {
+  display: inline-block;
+  margin: 20px;
+}
+a.link_3 {
+  text-decoration: none;
+  color: #ff7f50;
+  font-size: 20px;
+  transition: .3s linear;
+  font-weight: 600;
+}
+a.link_3:hover {
+  text-decoration: underline;
+  color: #ff00ff;
 }
